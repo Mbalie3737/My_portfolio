@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My_Work_Page</title>
+    <link rel="stylesheet" href="src/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top shadow-sm mb-5 p-3 border rounded navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Mbali Letsoara</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -18,24 +20,59 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link active" href="about.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Projects</a>
-            <a class="nav-item nav-link" href="qualifications.html">Qualifications</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
+            <a class="nav-item nav-link" href="#">My work</a>
+            <a class="nav-item nav-link" href="qualifications.html">Achievements</a>
+            <a class="nav-item nav-link" href="contact.html">Contact me</a>
           </div>
         </div>
       </nav>
     <h1 class="text-center">Have a look at some of my projects!</h1>
-    <div class="projects-container mb-5 p-5 text-center">
-<img src="images/reading.png" alt="" width="400px" class="img-fluid shadow p-3 mb-5 bg-white rounded">
-<p>This was my first project as a begginer, I had so much fun doing a project based on one of my hobbies.</p>
-<a class="btn btn-primary" href="#" role="button">Link</a>
-<img src="images/croissant-website.png" alt="" width="400px" class="img-fluid shadow p-3 mb-5 bg-white rounded">
-<p>This was my croissant website. It was a bit challenging because I was learning new things but I think I got the hang of it and built a basic website for one of my favourite foods</p>
-<a class="btn btn-primary" href="#" role="button">Link</a>
-<img src="images/weather-app.png" alt="" width="400px" class="img-fluid shadow p-3 mb-5 bg-white rounded">
-<p>This project was the most challenging because it included some advanced javascript, it was a rollercoaster but as soon as I started understanding java a bit I was able to get my desired results with regards to APIs and my forms, it is such a rewarding feeling when my code responds the way I expect it to, and also if there are any bugs it is so nice to finally spot the bug and fix it. Every challenge made me fall in love with coding all over again.</p>
-<a class="btn btn-primary" href="#" role="button">Link</a>
-</div>
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="images/reading.png" class="card-img img-fluid shadow-sm border mb-3" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This was my first project as a begginer, I had so much fun doing a project based on one of my hobbies.</p>
+              <a class="btn btn-primary" href="#" role="button">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="images/croissant-website.png" class="card-img " alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This was my croissant website. It was a bit challenging because I was learning new things but I think I got the hang of it and built a basic website for one of my favourite foods.</p>
+              <a class="btn btn-primary" href="#" role="button">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="images/weather-app.png" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This project was the most challenging because it included some advanced javascript, it was a rollercoaster but as soon as I started understanding java a bit I was able to get my desired results with regards to APIs and my forms, it is such a rewarding feeling when my code responds the way I expect it to, and also if there are any bugs it is so nice to finally spot the bug and fix it. Every challenge made me fall in love with coding all over again.
+              </p>
+              <a class="btn btn-primary" href="#" role="button">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <a href="https://github.com/Mbalie3737/My_portfolio">github</a>
+      </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

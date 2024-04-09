@@ -1,10 +1,9 @@
 
 .about-container {
     text-align: center;
-    margin: 48px 48px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
-    margin-top: 38px;
+    margin: 58px;
     background-color: #f7f4ff;
 border-radius: 10px;
 border: 1px solid #885df1;
@@ -12,6 +11,11 @@ border: 1px solid #885df1;
 .container {
     text-align: center;
 }
-.navbar {
-    background-color: #885df1;
+.contact-container {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
 }
