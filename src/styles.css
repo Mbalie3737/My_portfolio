@@ -3,7 +3,7 @@
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
-    margin: 58px;
+    margin: 60px;
     background-color: #f7f4ff;
 border-radius: 10px;
 border: 1px solid #885df1;
@@ -18,4 +18,18 @@ border: 1px solid #885df1;
 h1 {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
+}
+.work-container {
+    margin: 30px;
+}
+footer {
+    text-align: center;
+    background-color: #f7f4ff;
+    border: 1px solid #885df1;
+    border-radius: 10px;
+    margin: 60px;
+}
+button {
+    background-color: #885df1;
+
 }
